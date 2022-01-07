@@ -1,0 +1,91 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 600px;
+    background-image: url('https://3.bp.blogspot.com/-lVxn-lVd3AU/XMHsoV1E1sI/AAAAAAAAA9g/-rcb-uKtVsYk4w5wXBRX3ZZ85asFf2t-gCLcBGAs/w1200-h630-p-k-no-nu/the-mentalist-showtile.png.2017-11-28T14_17_05%252B13_00.jpg');
+    background-color: #00000;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  } 
+
+  .page-title {
+    color: #000000;
+  margin-right: 150px;
+  }
+  
+  .page-subtitle {
+    color: #000000;
+    margin-top: 5px;
+  
+  }
+  
+  .page-logo {
+    width: 200px;
+   margin-right: 150px;
+   
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+  
+  @media (max-height: 500px) {
+    body {
+      min-height:800px;
+    }
+  } 
+
+
+h2{
+  color: darkgray;
+}
+
+ button{
+  outline: none;
+  border: 0;
+    color: #ffffff;
+    background: #383e56;
+    font-weight:bold;
+    padding: 15px 40px;
+    font-size: 16px;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 20px;
+    margin-right: 105px;
+    cursor: pointer;
+}
+
+button:hover {
+  outline: none;
+  color: #000;
+  background: #ffff;
+  }
+
+p{
+  font-size: 25px;
+  color : #000000;
+  margin-top : 120px;
+  margin-right: 150px;
+} 
+
+#entrada{
+  margin-top: 20px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  outline: none;
+  border-radius: 30px;
+  height: 60px;
+  width: 100px;
+  margin-bottom:10px;
+  
+}
